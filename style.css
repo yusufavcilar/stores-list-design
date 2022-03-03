@@ -1,0 +1,184 @@
+:root {
+    font-family: 'Mulish', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/************** background__options ****************/
+
+.homepage__background {
+    width: 1440px;
+    height: 740px;
+    background-color: #1C1A39;
+    position: relative;
+
+}
+
+.frame__background {
+    position: absolute;
+    height: 314px;
+    width: 351px;
+    background: linear-gradient(129.57deg, #FF5DAB 0.87%, #756BFF 100%);
+    border-radius: 0px 15px 0px 15px;
+    margin-top: 80px;
+    margin-left: 500px;
+}
+
+.hero__background {
+    width: 331px;
+    height: 483px;
+    background-color: #121129;
+    margin: 74px 0 0 79px;
+    border-radius: 15px;
+    padding: 30px;
+
+
+}
+
+.closest__stores {
+    color: #C4C0FF;
+    font-size: 1.25rem;
+}
+
+.postal__code {
+    color: #C4C0FF;
+    font-size: 0.65rem;
+    margin-top: 30px;
+}
+
+.input__bar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.input {
+    width: 128px;
+    padding: 16px;
+    border: 2px solid;
+    background-color: #2A2753;
+    border-color: #756BFF;
+    border-radius: 4px;
+
+}
+
+.input::placeholder {
+    color: #C4C0FF;
+
+}
+
+.location__image {
+    width: 21px;
+    height: 24px;
+    color: #756BFF;
+    margin-left: 10px;
+}
+
+.use__my__location {
+    color: #756BFF;
+    margin-left: 5px;
+    font-size: 0.85rem;
+
+}
+
+/************** button__closed ****************/
+.point__bergen {
+    color: #C4C0FF;
+    margin-top: 25px;
+}
+
+.button__closed {
+    background-color: #FF5EAB;
+    color: #FFFFFF;
+    padding: 3px;
+    border-color: #FF5DAB;
+    border-radius: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 0.65rem;
+
+}
+
+.button__closed:hover {
+    background-color: darkorange;
+    border: darkorange;
+}
+
+.strandagaten__closed {
+    color: #C4C0FF;
+    margin-top: 6px;
+}
+
+.time__menu__closed {
+    display: flex;
+    margin-top: 6px;
+}
+
+.time {
+    color: #C4C0FF;
+    margin-left: 6px;
+}
+
+/************** button__open ****************/
+
+.point__bergen {
+    color: #C4C0FF;
+}
+
+.button__open {
+    background-color: #00BD9B;
+    color: #FFFFFF;
+    padding: 3px;
+    border-color: #00BD9B;
+    border-radius: 15px;
+    margin-left: 105px;
+    font-size: 0.65rem;
+    cursor: pointer;
+
+}
+
+.button__open:hover {
+    background-color: darkorange;
+    border: darkorange;
+}
+
+/************** time__menu ****************/
+
+.strandagaten__open {
+    color: #C4C0FF;
+    margin-top: 6px;
+
+}
+
+.time__menu__open {
+    display: flex;
+    margin-top: 6px;
+}
+
+.time {
+    color: #C4C0FF;
+    margin-left: 6px;
+}
+
+/************** view__all ****************/
+
+.view__all__button {
+    color: #FFFFFF;
+    background-color: #756BFF;
+    padding: 15px;
+    width: 270px;
+    border-radius: 4px;
+    border-color: #756BFF;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.view__all__button:hover {
+    background-color: brown;
+    border-color: brown;
+    color: aquamarine;
+}
